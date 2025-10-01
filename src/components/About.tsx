@@ -36,7 +36,7 @@ const About: React.FC = () => {
     {
       icon: Phone,
       label: "Phone",
-      value: "+92 305460629",
+      value: "+92 3054600629",
       link: "tel:+92 305 4600629",
     },
     {

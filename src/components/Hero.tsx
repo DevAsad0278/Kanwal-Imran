@@ -44,9 +44,11 @@ const Hero: React.FC = () => {
         style={{ backgroundImage: "url('/kanwal.png')" }}
       ></div>
 
-      {/* Overlay gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 opacity-80"></div>
-      <div className="absolute inset-0 bg-black/50"></div>
+      {/* Overlay gradient (lighter now) */}
+      <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 opacity-50"></div>
+
+      {/* Black overlay (lighter now) */}
+      <div className="absolute inset-0 bg-black/20"></div>
 
       {/* Animated background particles */}
       <div className="absolute inset-0 overflow-hidden">
@@ -99,10 +101,10 @@ const Hero: React.FC = () => {
         </motion.h1>
 
         <motion.div variants={itemVariants} className="mb-8">
-          <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-300 mb-4">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-200 mb-4">
             UI/UX Designer | Graphic Designer
           </h2>
-          <p className="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Designing intuitive, user-friendly, and impactful digital
             experiences
           </p>
